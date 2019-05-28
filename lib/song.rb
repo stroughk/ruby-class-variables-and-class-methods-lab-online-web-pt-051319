@@ -1,7 +1,7 @@
 def Song 
   @@count = 0
   
-  attr_accessor = (:artists, :genres, :genre_count)
+  attr_accessor = (:artists, :genres, :name)
   
   def initialize(@@count)
     @@count += 1 
